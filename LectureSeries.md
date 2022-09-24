@@ -51,9 +51,13 @@ Independent components do not rely on each other's result
 #### Example of Decomposition
 To find out a word in a corpus of documents (e.g Library of books)
 
-`
+
+```
+{
 for each book in library:
     for each word in book:
         hashmap[word] ++
-`
+}
+```
+
 
