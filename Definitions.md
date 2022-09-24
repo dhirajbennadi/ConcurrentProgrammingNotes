@@ -7,3 +7,5 @@
 6. Coherent Cache
 7. Inclusive Cache
 8. Exclusive Cache
+9. Cache Locality
+10. 
