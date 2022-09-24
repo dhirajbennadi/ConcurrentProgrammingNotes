@@ -18,8 +18,9 @@ Each process consists of:
 A thread is an executing instance of a sequential set of instructions
 A single process can contain multiple threads, all of which are executing the same program
 
-| Shared | Not Shared |
-| Global Variables | Stacks |
-| Heap | Registers |
-| - | Stack Pointers |
-| - | Return values |
+| Shared      | Not Shared |
+| ----------- | ----------- |
+| Global Variables      | Stacks       |
+| Heap   | Registers        |
+| -   | Stack Pointers        |
+| -   | Return values        |
