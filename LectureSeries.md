@@ -58,4 +58,55 @@ for each book in library:
         hashmap[word] ++
 ```
 
+### Throughput
+Number of operations per unit time
+
+Operation:
+1. Data Transfer
+   Throughput = Bandwidth
+   How much data can I send in particular unit of time
+2. Instruction
+   Throughput = IPS (Instructions Per second)
+   How many instructions can be processed is a measure of of throughput
+3. IO Device Access
+   Throughput = IOPS
+4. Floating Point Operation
+   Throughput = FLOPS
+
+
+### Latency
+Time to operation completion
+
+### Concurrency
+Number of outstanding operations or the number of operations running in parallel
+
+### Examples
+1. Internet Speed
+Throughput / Bandwidth = How much can I download in a particular unit of time
+Latency = How quickly can I download the first packet
+
+2. Cars on highway
+   Throughput = Number of lanes on the highway
+   Latency = How long does a car take to start and finish
+
+### Throughput vs Latency
+
+#### Sequential Programs
+For sequential programs, the concurrency is 1. At any point only 1 process can execute.
+
+**1 / latency = Throughput**
+
+#### Parallel Programs
+
+##### Little's law
+**Concurrency / Latency = Bandwidth**
+
+### Amdahl's Law
+
+![Amdahl's Law](Images/AmdahlsLaw.jpg)
+
+![Amdahl's Law Threads](Images/AmdahlsLawThreads.jpg)
+
+What are good strategies for Paralleization. Using Amdahl's law, p =~ 1
+
 
