@@ -3,4 +3,7 @@
 2. Communication
 3. Synchronization
 4. Independent
-5. 
+5. Cache Line
+6. Coherent Cache
+7. Inclusive Cache
+8. Exclusive Cache
