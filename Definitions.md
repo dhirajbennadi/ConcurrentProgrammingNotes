@@ -27,3 +27,10 @@
 26. Task graph
 27. Condition Variable
 28. Monitor
+29. Order
+30. Total Order
+31. Partial Order
+32. Incomparable
+33. Reflexivity
+34. Anti-Symmetry
+35. Transitivity
