@@ -19,4 +19,11 @@
 18. Deadlock
 19. Concurrency Primitive
 20. Barrier
-21. 
+21. Lock
+22. Starvation
+23. Priority Inversion
+24. Livelock
+25. Non-Deterministic
+26. Task graph
+27. Condition Variable
+28. Monitor
