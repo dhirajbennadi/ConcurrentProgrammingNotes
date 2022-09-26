@@ -44,7 +44,7 @@ More cheap servers, drives, memory
 Typically many machines on the network
 
 ### Decomposition
-Breaking down the program into constituent components or tasks that are ***independent**
+Breaking down the program into constituent components or tasks that are **independent**
 
 Independent components do not rely on each other's result
 
