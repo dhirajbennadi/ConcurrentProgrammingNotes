@@ -15,6 +15,11 @@ Core 1 will update B and change the state to modifiable
 
 ![MSI Protocol](Images/MSI_Protocol.jpg)
 
-# Events
-* [PrRd] (#PrRd)
-* [PrWr] (#PrWr)
+#Events
+
+## Events from Processor
+* PrRd : Processor request to read a cache line
+* PrWr:  Processor request to write a cache line
+
+## Events on the Bus
+* BusRd : 
