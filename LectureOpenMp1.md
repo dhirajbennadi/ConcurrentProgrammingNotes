@@ -20,3 +20,22 @@ int main()
     //Serial code
 }
 ```
+
+# Runtime Functions
+Setting/Querying Program State: `int omp_get_num_threads(void)`
+
+# Memory model is disturbed in OpenMP
+
+# Work Sharing Constructs are used within an OpenMP parallel region
+
+# Loop Scheduling
+1. Static - Assign threads to work on iterations. This is slower as a thread might take more time to process
+2. Dynamic - Available thread is executed - Queue is used
+3. Guided
+
+# Sections
+Each section executes in parallel by a different thread
+-> Implied barrier at the end
+
+`nowait` -> Preventing data races
+
