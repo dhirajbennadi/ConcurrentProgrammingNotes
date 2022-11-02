@@ -22,4 +22,28 @@ Core 1 will update B and change the state to modifiable
 * PrWr:  Processor request to write a cache line
 
 ## Events on the Bus
-* BusRd : 
+* BusRd : Request the cache line
+* BusRdX - I dont have the copy, I get the copy, invalidate others and then update it
+  Request the cache line and invalidate the lines in the caches of other processors (because I am about to write)
+* BusUp : Request the line s invalidated from other processors (because I am about to write and already have the line - I need to upgrade it)
+* Flush - Request the line is written back to memory
+
+# MESI
+Modified, Exclusive, Shared, Invalid
+
+# MESIF
+Modified, Exclusive, Shared, Invalid, Forward
+
+All cache lines have a home node
+
+Steps for each transaction:
+1. Requester broadcasts to all nodes using point-to-point network
+2. All nodes respond with:
+   1. Cache line state
+   2. Data if available/required
+   3. An indication if there is a conflicting transaction
+3. Requester notifies the home node of its transaction and conflicts
+4. Home node mediated conflict, sends cache-line if needed
+5. If needed, the requester acks the node it got a copy from
+
+# Directory Protocols
